@@ -6,7 +6,7 @@ public class TestaCirculo {
     public static void main(String[] args) {
         Circulo circulo = new Circulo();
         circulo.setRaio(8.0);
-       // Math.PI
+        // Math.PI
         System.out.print("Circulo");
         System.out.printf("Raio: " + circulo.getRaio());
         System.out.println("Diâmetro" + circulo.calcularDiametro());
